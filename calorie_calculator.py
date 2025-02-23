@@ -13,3 +13,5 @@ def get_calorie_target(serial):
 if __name__ == "__main__":
     serial = open('/proc/cpuinfo').read().split("Serial")[1].split(":")[1].strip()
     get_calorie_target(serial)
+
+
